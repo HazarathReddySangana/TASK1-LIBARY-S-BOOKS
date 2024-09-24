@@ -1,0 +1,24 @@
+#THE BOOKS TABLE AS BEEN CREATE 
+THE CODE IS 
+ -- Create the Books table
+CREATE TABLE books (
+    book_id INTEGER,
+    title VARCHAR2(100),
+    author VARCHAR2(100),
+    isbn VARCHAR2(20),
+    published_year INTEGER,
+    status VARCHAR2(20)
+);
+
+-- Insert data into Books table
+INSERT INTO books (book_id, title, author, isbn, published_year, status)
+VALUES(2,'The Adventures of Tom', 'Mark Twain', '9085645892597', 1997, 'avaiable');
+INSERT INTO books (book_id, title, author, isbn, published_year, status)
+VALUES(5, 'Pride and Prejudice', 'Jane Austen', '1025364891456', 1813, 'avaiable');
+INSERT INTO books (book_id, title, author, isbn, published_year, status)
+VALUES(6, 'The Great Gatsby', 'F.Scott Fitzgerald', '9012345678912', 1925, 'avaiable');
+INSERT INTO books (book_id, title, author, isbn, published_year, status)
+values(7, 'Little Women', 'Louisa May Aloctt', '5828693917147', 1868, 'avaiable');
+
+SELECT *FROM books;
+    
