@@ -1,1 +1,20 @@
+#THE MEMBERS TABLE AS BEEN CREATE 
+#AND THE VALUES OF MEBERS ALSO ENTER WHO ARE IN THE LIBRARY
+-- Create the Members table
+CREATE TABLE members (
+    member_id INTEGER,
+    first_name VARCHAR2(20),
+    last_name VARCHAR2(50),
+    email VARCHAR2(50),
+    phone VARCHAR2(20),
+    join_date DATE 
+);
+-- Insert data into Members table
+INSERT INTO members (member_id, first_name, last_name, email, phone)
+VALUES(2, 'hemanth', 'kumar', 'hamanthkumar13@gmail.com', '9586741425' );
+INSERT INTO members (member_id, first_name, last_name, email, phone)
+VALUES(3, 'sai', 'thanvish', 'saithanvish23@gmail.com', '8596742536');
+INSERT INTO members (member_id, first_name, last_name, email, phone)
+VALUES(4, 'hazarath', 'reddy', 'hazarathreddy@gmail.com', '9685362512');
 
+SELECT *FROM members;
