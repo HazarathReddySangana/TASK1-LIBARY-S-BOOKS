@@ -1,1 +1,14 @@
-#
+# THE TRANSACTIONS TABLE AS BEEN CREATED
+-- Create the Transactions table
+CREATE TABLE transactions (
+    transaction_id INTEGER,
+    book_id INTEGER,
+    member_id INTEGER,
+    borrow_date DATE,
+    return_date DATE
+);
+
+-- Insert data into Transactions table (borrowing a book)
+INSERT INTO transactions (transaction_id, book_id, member_id, borrow_date)
+VALUES(1,2,2,'4-AUG-2024' );
+ SELECT * FROM transactions;
