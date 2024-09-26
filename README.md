@@ -45,7 +45,7 @@ STEP 4 :- CREATE AN TRANSACTIONS TABLE AND INSERT DATA IN THE THAT TABLE
       3. INSERT THE DAT BY INSERT INTO TABLE_NAME.
       4. AFTER INSERT THE DATA CHECK WHARE THE TABLE FROMED OR NOT.
 
-      ![Screenshot 2024-09-26 194310](https://github.com/user-attachments/assets/b8dad194-d094-476c-922b-d292098549b2)
+![Screenshot 2024-09-26 194310](https://github.com/user-attachments/assets/b8dad194-d094-476c-922b-d292098549b2)
 
 
       
