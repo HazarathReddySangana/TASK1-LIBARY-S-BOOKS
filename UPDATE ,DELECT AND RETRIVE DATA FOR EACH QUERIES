@@ -1,1 +1,34 @@
+-- Update book status to 'avaiable' when a book is borrowed
+UPDATE books
+SET status = 'avaiable'
+WHERE book_id = 2;
+
+SELECT *FROM books;
+
+-- Update transaction with return date
+UPDATE transactions
+SET return_date =  ''
+WHERE transaction_id = 1;
+
+SELECT*FROM transactions;
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-- Delete a book from the Books table
+DELETE FROM books
+WHERE book_id = 2;
+
+SELECT*FROM books;
+
+-- Delete a member from the Members table
+DELETE FROM members
+WHERE member_id = 2;
+
+SELECT*FROM members;
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-- Retrieve all transactions for a specific member
+SELECT * FROM transactions
+WHERE member_id = 2;
 
