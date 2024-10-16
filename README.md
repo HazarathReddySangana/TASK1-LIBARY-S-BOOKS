@@ -47,6 +47,13 @@ STEP 4 :- CREATE AN TRANSACTIONS TABLE AND INSERT DATA IN THE THAT TABLE
 
 ![Screenshot 2024-09-26 194310](https://github.com/user-attachments/assets/b8dad194-d094-476c-922b-d292098549b2)
 
+STEP 5 :- AFTER DELECT AND UPDATE AND RETRIVE THE DATA 
+     The output of that  commands are 
+
+![Screenshot 2024-09-26 195956](https://github.com/user-attachments/assets/d19aea3a-100c-4afe-ab08-675cd37682b2)
+![Screenshot 2024-09-26 200318](https://github.com/user-attachments/assets/5127e20f-c9d9-46ce-8014-77a06b6a2a57)
+![Screenshot 2024-09-26 200752](https://github.com/user-attachments/assets/fe4e431a-8e60-4a3a-8dc1-d9ea35e41238)
+
 
       
     
